@@ -11,7 +11,15 @@ describe("simple test",()=>{
         it("test 2",()=>{
             expect({name : "Foo"}).to.deep.equal({name : "foo"})
         })
-
+        
+          it("test 2",()=>{
+            expect({name : "Foo"}).to.deep.equal({name : "foo"})
+        })
+        
+          it("test 2",()=>{
+            expect({name : "Foo"}).to.deep.equal({name : "foo"})
+        })
+    
 
     })
 })
